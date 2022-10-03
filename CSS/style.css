@@ -1,0 +1,446 @@
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 1440px;
+    padding: 0 0px;
+    margin: 0 auto;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;  /*отменяет маркеры*/
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.header-menu {
+    padding: 20px 72px 0px 73px;
+}
+
+.header-img-shop {
+    margin-right: 8px;
+}
+
+.header-list {
+    margin: 19px 200px 0px 200px;
+}
+
+.header-list-item {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    letter-spacing: 0.18px;
+    color: #222222;
+}
+
+.header-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.header-meun-descr {
+    margin-right: 14px;
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.header-meun-descr-2 {
+    margin-right: 27px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: #3F53D8;
+}
+
+.header-menu-button {
+    width: 219px;
+    height: 61px;
+    background-color: rgba(8, 8, 41, 0.2) 20%;
+    border: 1px solid rgba(8, 8, 41, 0.2);
+    border-radius: 14px; 
+    
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #080829;
+}
+.header-menu-button:hover{
+    background: #3F53D8;
+    color: white;
+    cursor: pointer;
+}
+
+/* SECTION 1 */
+
+.section-1 {
+    padding-top: 90px;
+}
+
+.section-1-title {
+    margin-left: 120px;
+    width: 470px;
+    height: 317px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 79px;
+    letter-spacing: 2.16px;
+    color: #080829;
+}
+
+.section-1-descr {
+    margin-left: 120px;
+    width: 495px;
+    height: 87px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #080829;
+}
+
+.section-1-block {
+    margin: 23px 0px 0px 120px;
+}
+
+.section-1-button {
+    margin-top: 20px;
+    margin-right: 34px;
+    width: 240px;
+    height: 59px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #3F53D8;
+    border: 0px;
+    border-radius: 14px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+.section-1-button:hover{
+    color: black;
+    background-color: pink;
+    border: 1px solid pink;
+    cursor: pointer;
+}
+
+.section-1-img {
+    margin-right: 120px;
+    margin-left: 95px;
+}
+
+/*SECTION 2*/
+
+.section-2-title{
+ font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 31px;
+text-align: center;
+margin-top: 138px;
+}
+.section-2-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*SECTION 3*/
+
+.section-3-title{
+font-style: normal;
+font-weight: 400;
+font-size: 43px;
+line-height: 56px;
+text-align: center;
+margin-top: 181px;
+}
+.section-3-text{
+    
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+}
+
+/*SECTION 4*/
+
+.section-4{
+    margin-top: 106px;
+    margin-left: 330px;
+}
+
+.section-4-item{
+    text-align: center;
+    width: 300px;
+}
+
+/*SECTION 5*/
+.section-5{
+    padding-top: 239px;
+}
+
+.section-5-image{
+    padding-left: 120px;
+}
+.section-5-text{
+    width: 432px;
+    height: 481px;
+    padding-left: 128px;
+}
+
+.section-5-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+}
+
+.section-5-firsttext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #545479;
+}
+
+.section-5-ul{
+    padding-bottom: 30px;
+}
+
+.section-5-item{
+    padding-top: 10px;
+    list-style: none;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #080829;
+}
+
+.section-5-button{
+    width: 174px;
+    height: 59px;
+    background-color: #3F53D8;
+    border: 1px solid #3F53D8;
+    border-radius: 14px;     
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.section-5-button:hover{
+    color: black;
+    background-color: pink;
+    border: 1px solid pink;
+    cursor: pointer;
+}
+
+/*SECTION 6*/
+
+.section-6-image{
+    width: 624;
+    height: 573.97px;
+    padding-top: 199px;
+}
+
+.section-6-text{
+    width: 414px;
+    height: 87px;
+    padding-left: 120px;
+    padding-top: 251px;
+}
+
+.section-6-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    color: #080829;
+}
+
+.section-6-firsttext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #545479;
+}
+
+.section-6-item{
+    list-style: none;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.36px;
+    color: #080829;
+}
+
+.section-6-dude{
+    width: 414px;
+    padding-bottom: 50px;
+}
+
+.section-6-button{
+    width: 174px;
+    height: 59px;
+    background-color: #3F53D8;
+    border: 1px solid #3F53D8;
+    border-radius: 14px;     
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.section-6-button:hover{
+    color: black;
+    background-color: pink;
+    border: 1px solid pink;
+    cursor: pointer;
+}
+ 
+/*SECTION 7*/
+.section-7{
+    padding-top: 180px;
+}
+.section-7-text{
+    width: 425px;
+    padding-left: 132px;
+}
+.section-7-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    color: #080829;
+}
+.section-7-firsttext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #545479;
+}
+.section-7-border{
+    width: 432px;
+}
+.section-7-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-7-item{
+    width: 126px;
+
+}
+
+/*SECTION 8*/
+
+.section-8-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    color: #080829;
+    text-align: center;
+    padding-top: 177px;
+}
+
+/*SECTION 9*/
+
+.section-9-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0.56px;
+    color: #080829;
+}
+.section-9-firsttext{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #545479;
+}
+.section-9-block{
+    width: 340px;
+}
+.section-9{
+    padding-top: 82px;
+    justify-content: space-between;
+}
+
+/*SECTION 10*/
+
+.section-10-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 1.44px;
+    color: #080829;
+    padding-top: 192px;
+}
+
+/*SECTION 11*/
+
+.section-11-comment{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.64px;
+    color: #080829;
+    width: 718px;
+}
+
+.section-11-kavimg{
+    width: 100px;
+}
